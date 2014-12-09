@@ -76,6 +76,11 @@ Before installation, see the [notes on file permissions](#file-permissions).
 
 		git clone git://github.com/symphonycms/workspace.git
 
+1. Set _temporary_ permissions for the install script:
+
+		chmod 777 symphony .
+		chmod -R 777 workspace
+
 1. Point your web browser at the `install` subdirectory (e.g., `http://example.com/install/`) and provide details on establishing a database connection and your server environment.
 
 1. Chuckle villainously and tap your fingertips together (or pet a cat) as your installation completes.
